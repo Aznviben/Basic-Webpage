@@ -1,0 +1,298 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color: grey;
+	
+}
+.container {
+ width: 100%;
+ margin-left: auto;
+ margin-right: auto;
+ background-color: #fffff;
+ 
+}
+
+img{
+	
+	width:inherit;
+	height:inherit;
+	
+	margin: auto;
+	
+}
+
+header {
+width: 100%;
+ height: 8%;
+ background-color: aliceblue;
+ border-bottom: black;
+
+}
+mark{
+	background-color: black;
+	color:yellow;
+}
+
+.header h1, h2{
+	color: yellow;
+	align-content: center;
+	align-items: center;
+	fill: black;
+	
+	text-align: center;
+}
+
+
+.intro {
+ display: inline-block;
+ color:white;
+ background-image:url("img/3211867.jpg") ;
+ background-size: cover;
+ background-repeat: no-repeat;
+ width:100%;
+ min-height: 200px;
+ 
+}
+.intro h1 {
+ font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif", "sans-serif";
+ font-size: 48px;
+ text-align: center;
+ letter-spacing: 3px; 
+}
+
+.column {
+ width: 100%;
+ text-align: center;
+ padding: 30px;
+ display:block;
+ margin-left:auto;
+ margin-right: auto;
+ 
+}
+.intro .column h3 {
+ color: #FFFFFF;
+ text-align: center;
+ font-size:22px;
+ line-height: 1.5;
+}
+.intro .column p {
+ color: #FFFFFF;
+}
+.cards {
+ width: 100%;
+ height: auto;
+ max-width: 400px;
+ max-height: 200px;
+ opacity: 0.5;
+}
+.intro .column p {
+ padding-left: 30px;
+ padding-right: 30px;
+ text-align: justify;
+ line-height: 25px;
+ font-weight: lighter;
+ margin-left: 20px;
+ margin-right: 20px;
+ width: 80%;
+ margin-top: 4%;
+}
+
+.topNav {
+ background-color: #A32DF1;
+ overflow: hidden;
+ font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, 
+"sans-serif";
+}
+.topNav a {
+ float: left;
+ display: block;
+ color: #f2f2f2;
+ text-align: center;
+ padding: 14px 16px;
+ text-decoration: none;
+ font-size: 17px;
+}
+/* Change the color of links on hover */
+.topNav a:hover {
+ background-color: #FFED00;
+ color: black;
+}
+/* Add an active class to highlight the current page */
+.topNav a.active {
+ background-color: #A0B6C1;
+ color: white;
+}
+
+.CCAR {
+ width: 80%;
+	max-height: auto;
+  border: 10px solid black;
+  padding: 30px;
+  margin: auto;
+background-color: mediumpurple;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";	
+	
+}
+
+.CCAR h3{
+	font-size: 30px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	text-align: center;
+	
+}
+.CCAR p{
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	align-text: center;
+	text-align: center;
+}
+
+
+.CCAR img{
+	margin: center;
+	border:5px solid yellow;
+		align: center;
+	text-align: center;
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	
+
+}
+
+
+.grid-container {
+	padding-top: 10px;
+	padding-bottom: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+}
+
+.button {
+ width: 200px;
+ margin-top: 40px;
+ margin-right: auto;
+ margin-bottom: auto;
+ margin-left: auto;
+ padding-top: 20px;
+ padding-right: 10px;
+ padding-bottom: 20px;
+ padding-left: 10px;
+ text-align: center;
+ vertical-align: middle;
+horizontal-align:left;
+ border-radius: 0px;
+ text-transform: uppercase;
+ font-weight: bold;
+ letter-spacing: 2px;
+ border: 3px solid #FFF485;
+ color: whitesmoke;
+background-color: #593CA6;
+ transition: all 0.3s linear;
+}
+
+.button a{
+	color:yellow;
+}
+.button:hover {
+ background-color: white;
+ color: #FFFFFF;
+ cursor: pointer;
+}
+
+.hero_header {
+ color: #FFFFFF;
+ text-align: center;
+ margin: 0;
+ letter-spacing: 4px;
+ font-size: 30px;
+padding-top: 10px;
+	
+}
+
+footer{
+	margin-top: 10px;
+	margin-bottom: auto;
+	
+	background-blend-mode: hard-light;
+	background-position: bottom;
+	border-top: 10px  bold black;
+	border-bottom: 10px  black;
+	align-items: center;
+}
+
+
+.center {
+}
+
+@media only screen and (max-width: 780px){
+	
+	.CCAR {
+ width: 60%;
+	max-height: auto;
+  border: 10px solid black;
+  padding: 30px;
+  margin: auto;
+background-color: mediumpurple;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";	
+	
+}
+
+.CCAR h3{
+	font-size: 20px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	text-align: center;
+	
+	
+}
+.CCAR p{
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	text-align: center;
+	align-self: center;
+}
+
+
+.CCAR img{
+	margin: center;
+	border:5px solid yellow;
+		align: center;
+	text-align: center;
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+.header h2{
+	display:none;
+}
+
+
+.grid-container {
+	align-content: center;
+	align-items: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 30px;
+}
+	
+}
+
+body {
+    background: linear-gradient(-180deg, mediumpurple, black, purple, #6b0fD9);
+    background-size: auto;
+    animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
